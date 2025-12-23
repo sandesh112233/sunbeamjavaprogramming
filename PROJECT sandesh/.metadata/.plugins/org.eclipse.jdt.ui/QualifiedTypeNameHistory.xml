@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.StackOverflowError"/>
+    <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
+    <fullyQualifiedTypeName name="com.tokyo.quizapp.model.Attempts"/>
+    <fullyQualifiedTypeName name="com.tokyo.quizapp.service.AdminService"/>
+    <fullyQualifiedTypeName name="com.tokyo.quizapp.service.StudentService"/>
+    <fullyQualifiedTypeName name="com.tokyo.quizapp.model.User"/>
+    <fullyQualifiedTypeName name="com.tokyo.quizapp.util.DbUtil"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.x.protobuf.MysqlxPrepare.Prepare"/>
+    <fullyQualifiedTypeName name="com.tokyo.quizapp.dao.StudentDao"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.tokyo.quizapp.model.Quiz"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,13 @@
+package com.tokyo.quizapp.util;
+
+import com.tokyo.quizapp.model.Attempts;
+
+public class demo {
+	public void name() {
+		
+	
+Attempts atm =new Attempts(1,1,1,1,1);
+Attempts atm2= new Attempts();
+atm2.
+
+}}

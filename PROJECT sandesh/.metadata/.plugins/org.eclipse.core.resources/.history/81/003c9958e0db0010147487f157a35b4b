@@ -1,0 +1,8 @@
+package com.tokyo.quizapp.main;
+
+public class QuizMain {
+	public static void main(String [] args) {
+		
+	}
+
+}

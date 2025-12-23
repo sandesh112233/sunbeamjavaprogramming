@@ -1,0 +1,38 @@
+package com.tokyo.quizapp.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import com.tokyo.quizapp.model.User;
+import com.tokyo.quizapp.util.DbUtil;
+
+public class StudentDao {
+	private static Connection san = null;
+	public StudentDao()  throws SQLException {
+		san=DbUtil.getConnection1()	;
+		}
+      public  static void addstudent() throws SQLException {
+    	  User student = new User();
+    	  String sql = "insert into users ( name, email, password_hash , role) values (?,?,?,?)";
+    	  
+    		  PreparedStatement insert =san.prepareStatement(sql);
+    	  
+    	  insert.setString(1,student.getName());
+    	  insert.setString(2,student.getEmail());
+    	  insert.setString(3,student.getPassword());
+    	  insert.setString(4,student.getRole());
+    	  insert.executeUpdate();
+san.close();
+insert.close();
+System.out.println("student has been registered");}
+    	 
+    	  
+    	  
+    	  
+	}
+      
+      
+      
+}
+

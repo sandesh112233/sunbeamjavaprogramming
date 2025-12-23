@@ -1,0 +1,36 @@
+package com.tokyo.quizapp.menu;
+
+import java.util.Scanner;
+
+import com.tokyo.quizapp.service.AdminService;
+import com.tokyo.quizapp.service.StudentService;
+
+public class MainMenu {
+
+	
+	public static void menu(Scanner sc) {
+		do {
+			System.out.println("1.adminlogin\n 2.studentregister\n 3.studentlogin\n 4.exit");
+			System.out.println("select:");
+			 int ch=sc.nextInt();
+			 
+			 switch(ch) {
+			 case 1:System.out.println("enter admin info:");
+			 AdminService.adminlogin();
+			 break;
+			 
+			 case 2 :System.out.println("student  reegister");
+			 StudentService.StudentRegistration(sc);
+			 break;
+			 case 3 :System.out.println("enter student  info");
+			 break;
+			 case 4 :System.out.println("exit");
+			 
+			 default:System.out.println("wrong choice");
+			 break;
+			 }while(ch!=4);
+		
+		
+	
+}
+}

@@ -1,0 +1,5 @@
+package com.tokyo.quizapp.model;
+
+public class User {
+
+}
